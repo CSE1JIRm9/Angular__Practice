@@ -43,7 +43,7 @@ private log(message: string) {
   this.messageService.add(`HeroService: ${message}`);
 }
 
-private heroesUrl = 'api/heroes';  // URL to web api
+private heroesUrl = 'http://localhost:3000/users';  // URL to web api
 
 /**
  * Handle Http operation that failed.
